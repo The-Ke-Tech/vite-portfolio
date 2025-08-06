@@ -6,6 +6,8 @@ import SkillsPage from './components/SkillsPage';
 import AboutPage from './components/AboutPage';
 import ProjectsPage from './components/ProjectsPage';
 
+import ContactPage from './components/ContactPage';
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -15,6 +17,7 @@ const App = () => {
         <Route path='/skills' element={<SkillsPage />} />
         <Route path='/about' element={<AboutPage />} />
         <Route path='/projects' element={<ProjectsPage />} />
+        <Route path='/contact' element={<ContactPage />} /> {/* Ensure you have a Contact component */}
       </Routes>
       <Footer />
     </BrowserRouter>
