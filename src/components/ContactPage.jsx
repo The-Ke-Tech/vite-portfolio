@@ -145,7 +145,7 @@ const ContactPage = () => {
                   <span className="font-medium">Phone:</span> +254701804627
                 </p>
                 <p className="text-lg text-slate-600">
-                  <span className="font-medium">Email:</span> your.email@example.com
+                  <span className="font-medium">Email:</span> bowera707@gmail.com
                 </p>
               </div>
               <div className="flex gap-x-6 mt-6">
